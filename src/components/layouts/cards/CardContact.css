@@ -1,0 +1,48 @@
+.card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+  }
+  
+  .contactCard {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    background-color: #e3eef1;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .contactInfo {
+    margin-left: 20px;
+  }
+  
+  .contactIcon {
+    font-size: 40px;
+    margin-right: 20px;
+  }
+  .contactListContainer {
+    max-height: 400px; /* Altura máxima del contenedor */
+    overflow-y: auto; /* Desplazamiento vertical automático */
+  }
+  .title {
+    text-align: center; /* Centrar el texto */
+    font-size: 24px; /* Tamaño de fuente más pequeño */
+    color: black; /* Color de texto negro */
+  }
+  .searchContainer {
+    margin-bottom: 20px;
+  }
+  .noContactsMessage {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .noContactsIcon {
+    color: #ccc;
+  }
